@@ -1,6 +1,7 @@
 Aim for this Terraform project:
 
 1.Secure website hosted at https://www.yordanovsstoyan.com/ with a valid SSL certificate
+</br>
 2.Requests to the insecure website http://www.yordanovsstoyan.com/ are redirected to https://www.yordanovsstoyan.com/
 3.Requests without the www subdomain (https://yordanovsstoyan.com/) are redirected to https://www.yordanovsstoyan.com/
 
