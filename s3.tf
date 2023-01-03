@@ -18,10 +18,7 @@ resource "aws_s3_bucket" "web-bucket" {
 
 
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
+  
 }
 
 resource "aws_s3_bucket" "redirect-bucket" {
@@ -33,10 +30,7 @@ resource "aws_s3_bucket" "redirect-bucket" {
     redirect_all_requests_to = "https://www.${var.domain_name}"
   }
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
+  
   
 
 
